@@ -1,15 +1,15 @@
 import java.util.List;
 
-public abstract class BaseService {
+public abstract class BaseDao<T extends BaseEntity> {
 
-    protected List<BaseEntity> list;
+    protected List<T> list;
 
-    BaseEntity findById(long id){
+    T findById(long id){
         if (list == null || list.isEmpty()) {
             return null;
         }
 
-        for (BaseEntity object : list) {
+        for (T object : list) {
             if (object.getId() == id) {
                 return object;
             }
@@ -17,7 +17,7 @@ public abstract class BaseService {
         return null;
     }
 
-    void save(BaseEntity object) {
+    void save(T object) {
         if (object == null || list == null) {
             return;
         }

@@ -17,5 +17,9 @@
 
     2. Version4 (branch):
     This version contains HomeWork1 assingment with generics.
+    The usage of generics is partial so in this branch we don't achive full generic DAO.
+
+    3. Version5 (branch):
+    This version contains HomeWork1 assingment with full generics API (DAO).
 
 * To select other version, checkout the desired branch

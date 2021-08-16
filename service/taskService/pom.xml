@@ -14,13 +14,19 @@
     <dependencies>
         <dependency>
             <groupId>com.galil</groupId>
-            <artifactId>implDeveloper</artifactId>
+            <artifactId>dao-api</artifactId>
             <version>1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>
             <groupId>com.galil</groupId>
-            <artifactId>implTask</artifactId>
+            <artifactId>task</artifactId>
+            <version>1.0</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.galil</groupId>
+            <artifactId>developer</artifactId>
             <version>1.0</version>
             <scope>compile</scope>
         </dependency>
