@@ -31,7 +31,7 @@ public class TaskService {
         Task task4 = new Task(4, "Task-4", Task.Status.OPEN, 4);
         Task task5 = new Task(5, "Task-5", Task.Status.OPEN, 5);
 
-        List<Object> tasks = new LinkedList<>();
+        List<BaseEntity> tasks = new LinkedList<>();
         tasks.add(task1);
         tasks.add(task2);
         tasks.add(task3);
@@ -48,7 +48,7 @@ public class TaskService {
             dev2.AddTask(task4);
             dev2.AddTask(task5);
 
-            List<Object> developers = new LinkedList<>();
+            List<BaseEntity> developers = new LinkedList<>();
             developers.add(dev1);
             developers.add(dev2);
         

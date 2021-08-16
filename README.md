@@ -10,3 +10,12 @@
     
   * To run the program:
     1. java -jar .\service\taskService\target\taskService-1.0.jar
+
+# Versions Available
+    1. Version3 (the default branch):
+    This version contains HomeWork1 assingment with collections.
+
+    2. Version4 (branch):
+    This version contains HomeWork1 assingment with generics.
+
+* To select other version, checkout the desired branch

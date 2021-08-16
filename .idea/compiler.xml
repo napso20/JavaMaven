@@ -7,18 +7,11 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="implDeveloper (2)" />
-        <module name="taskService (1)" />
         <module name="dao-api (2)" />
-        <module name="dao-api (1)" />
         <module name="implDeveloper (1)" />
-        <module name="implTask (2)" />
-        <module name="implTask (1)" />
-        <module name="entities-developer" />
         <module name="task" />
-        <module name="entities-api (1)" />
-        <module name="entities-task" />
         <module name="entities-api (2)" />
+        <module name="implTask (2)" />
         <module name="developer" />
         <module name="taskService (2)" />
       </profile>
@@ -26,18 +19,30 @@
     <bytecodeTargetLevel>
       <module name="api" target="16" />
       <module name="dao" target="16" />
+      <module name="dao (1)" target="16" />
       <module name="dao-api" target="16" />
+      <module name="dao-api (1)" target="16" />
       <module name="dao-impl" target="16" />
       <module name="developerImpl" target="16" />
       <module name="entities" target="16" />
+      <module name="entities (2)" target="16" />
       <module name="entities-api" target="16" />
+      <module name="entities-api (1)" target="16" />
+      <module name="entities-developer" target="16" />
+      <module name="entities-task" target="16" />
       <module name="HomeWork1" target="16" />
+      <module name="HomeWork1 (1)" target="16" />
       <module name="impl" target="16" />
+      <module name="impl (1)" target="16" />
       <module name="implDeveloper" target="16" />
+      <module name="implDeveloper (2)" target="16" />
       <module name="implTask" target="16" />
+      <module name="implTask (1)" target="16" />
       <module name="service" target="16" />
+      <module name="service (1)" target="16" />
       <module name="taskImpl" target="16" />
       <module name="taskService" target="16" />
+      <module name="taskService (1)" target="16" />
     </bytecodeTargetLevel>
   </component>
 </project>
